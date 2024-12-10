@@ -57,3 +57,23 @@ COCO
 Here are example images of MIOD performance on COCO dataset
 
 ![img_stack](images/img_stack.png)
+
+## Contributing
+Contributions are welcome! Please follow these steps to contribute:
+1. Fork the repository.
+2. Create a new branch:
+```bash
+git checkout -b feature-branch
+```
+3. Make your changes and commit them:
+```bash
+git commit -m "Add a feature"
+```
+4. Push to the branch:
+```bash
+git push origin feature-branch
+```
+5. Create a pull request.
+
+## License
+MIOD is released under the Apache 2.0 license. Please see the [LICENSE](LICENSE) file for more information.
