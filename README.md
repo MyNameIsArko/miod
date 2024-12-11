@@ -8,6 +8,8 @@
 **Iterative Mask-Guided Detection**: This is the heart of our approach. MIOD processes an image along with three masks as its additional channels. These masks, have the same dimensions as the image and are set to `-1` at the beginning.
 When a prediction is made, the network updates the appropriate mask by marking the corresponding area of the bounding box with `1`. Mask is selected by calculating the area the bounding box takes and looking at the thresholds between masks. These are for small, medium, and large objects. The image and updated masks are then re-input into the model for subsequent predictions.
 
+Link to research paper coming soon
+
 ## Installation
 
 1. Install the environment
@@ -59,6 +61,7 @@ Here are example images of MIOD performance on COCO dataset
 ![img_stack](images/img_stack.png)
 
 ## TODO
+- [ ] Link to research paper
 - [ ] Model weights
 - [ ] Pascal performance
 - [ ] Own image prediction
