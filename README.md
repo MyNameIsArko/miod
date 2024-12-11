@@ -58,6 +58,11 @@ Here are example images of MIOD performance on COCO dataset
 
 ![img_stack](images/img_stack.png)
 
+## TODO
+- [ ] Model weights
+- [ ] Pascal performance
+- [ ] Own image prediction
+
 ## Contributing
 Contributions are welcome! Please follow these steps to contribute:
 1. Fork the repository.
